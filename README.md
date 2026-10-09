@@ -4,7 +4,7 @@ An interactive Streamlit dashboard over CMS nursing-home data: nurse staffing,
 30-day hospital readmissions, star ratings, and occupancy across ~14,700
 Medicare- & Medicaid-certified facilities.
 
-**Live:** _deploy to Streamlit Community Cloud and drop the URL here_
+**Live:** <https://devinb98-healthcare-dashboard-app-58tt5l.streamlit.app/>
 
 ## About
 
