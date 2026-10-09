@@ -1,0 +1,18 @@
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# os
+.DS_Store
+
+# secrets (none belong here, but never commit these)
+.env
+*.secret
+.streamlit/secrets.toml
+
+# raw source data — the pipeline's inputs stay out of git; only the small
+# pre-aggregated data/*.parquet is committed.
+*.csv
+*.zip
