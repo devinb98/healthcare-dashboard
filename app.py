@@ -12,7 +12,9 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-ACCENT = "#2f5bd0"
+ACCENT = "#a6cb8c"  # sage, matches the portfolio's dark theme
+# sage ramp for the ordinal star rating (dim → bright, legible on dark)
+RATING_RANGE = ["#5f7a4b", "#7a9960", "#95b97a", "#b0d394", "#cbe9b2"]
 DATA = Path(__file__).parent / "data"
 
 st.set_page_config(
@@ -149,7 +151,7 @@ with tab2:
             color=alt.Color(
                 "overall_rating:O",
                 title="Overall rating",
-                scale=alt.Scale(scheme="blues"),
+                scale=alt.Scale(range=RATING_RANGE),
             ),
             tooltip=[
                 alt.Tooltip("name:N", title="Facility"),

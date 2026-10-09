@@ -1,6 +1,9 @@
 [theme]
-base = "light"
-primaryColor = "#2f5bd0"
+base = "dark"
+primaryColor = "#a6cb8c"          # sage accent (matches the site)
+backgroundColor = "#211e17"       # warm near-black paper
+secondaryBackgroundColor = "#2a261d"  # sidebar / cards
+textColor = "#ece3d0"             # warm cream
 font = "sans serif"
 
 [browser]
