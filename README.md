@@ -6,8 +6,6 @@ Medicare- & Medicaid-certified facilities.
 
 **Live:** _deploy to Streamlit Community Cloud and drop the URL here_
 
-![staffing vs readmissions](docs/preview.png)
-
 ## About
 
 This is the public, shareable version of a dashboard I originally built as a
